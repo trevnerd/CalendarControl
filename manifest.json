@@ -1,0 +1,19 @@
+{
+    "name": "Calendar Control",
+    "description": "Regulation for mindless browsing by enfocing a planned schedule.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "hello.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+      "storage",
+      "unlimitedStorage",
+      "tabs",
+      "bookmarks",
+      "sessions"
+    ]
+}
